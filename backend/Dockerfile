@@ -15,6 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code and required runtime dependencies
 COPY backend /app/backend
 COPY data/vector_index /app/data/vector_index
+COPY data/processed/entities.json /app/data/processed/entities.json
 COPY ingestion /app/ingestion
 
 # Expose backend port
