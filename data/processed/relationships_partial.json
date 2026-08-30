@@ -1,0 +1,143 @@
+[
+  {
+    "relation_id": "drug_ofloxacin_ophthalmic_solution_treats_condition_infection",
+    "source_entity_id": "drug_ofloxacin_ophthalmic_solution",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_infection",
+    "confidence": 0.95,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_ophthalmic_solution_contraindicated_for_condition_hypersensitivity",
+    "source_entity_id": "drug_ofloxacin_ophthalmic_solution",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_hypersensitivity",
+    "confidence": 0.95,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_diarrhea",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_diarrhea",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_nausea",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_nausea",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_vomiting",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_vomiting",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_flatulence",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_flatulence",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_indigestion",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_indigestion",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_abdominal_discomfort",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_abdominal_discomfort",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_headache",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_headache",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_asthenia",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_asthenia",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "condition_type_2_diabetes_has_symptom_symptom_polyuria",
+    "source_entity_id": "condition_type_2_diabetes",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_polyuria",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1",
+      "0004a0bb-87c0-46f8-b36a-95c98107395d"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_treats_condition_type_2_diabetes",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_type_2_diabetes",
+    "confidence": 0.95,
+    "source_ids": [
+      "26cca05b-82f8-e191-e063-6394a90a56bd"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_contraindicated_for_population_pregnancy",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_pregnancy",
+    "confidence": 0.95,
+    "source_ids": [
+      "26cca05b-82f8-e191-e063-6394a90a56bd"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_contraindicated_for_population_severe_renal_impairment",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_severe_renal_impairment",
+    "confidence": 0.95,
+    "source_ids": [
+      "0004a0bb-87c0-46f8-b36a-95c98107395d"
+    ]
+  }
+]

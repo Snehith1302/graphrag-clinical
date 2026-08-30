@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:5.12.0
+    container_name: graphrag_neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/changeme
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p changeme 'RETURN 1'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: graphrag_backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - NEO4J_URI=bolt://neo4j:7687
+    volumes:
+      - ./backend:/app
+      - ./data:/app/data
+    depends_on:
+      neo4j:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: graphrag_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+volumes:
+  neo4j_data:
+  neo4j_logs:

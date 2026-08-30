@@ -1,0 +1,248 @@
+{
+  "benchmark_items": [
+    {
+      "id": "q1",
+      "question": "What are the indications listed for Ofloxacin ophthalmic solution?",
+      "category": "direct",
+      "expected_entities": ["drug_ofloxacin_ophthalmic"],
+      "expected_relationship_ids": [],
+      "expected_relationship_types": [],
+      "expected_source_ids": ["f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"],
+      "expected_hop_count": 0,
+      "answerable": true
+    },
+    {
+      "id": "q2",
+      "question": "What is the volume of distribution of Naproxen?",
+      "category": "direct",
+      "expected_entities": ["drug_naproxen"],
+      "expected_relationship_ids": [],
+      "expected_relationship_types": [],
+      "expected_source_ids": ["8c45ef1f-f708-485b-bc20-60aa87ce6289"],
+      "expected_hop_count": 0,
+      "answerable": true
+    },
+    {
+      "id": "q3",
+      "question": "Does Mezereum help with skin irritation or itching?",
+      "category": "semantic",
+      "expected_entities": ["drug_mezereum", "condition_pruritus"],
+      "expected_relationship_ids": ["drug_mezereum_treats_condition_pruritus"],
+      "expected_relationship_types": ["TREATS"],
+      "expected_source_ids": ["01f4b0f6-94df-fd91-e063-6394a90a7997"],
+      "expected_hop_count": 1,
+      "answerable": true
+    },
+    {
+      "id": "q4",
+      "question": "Is Ofloxacin ophthalmic solution used to treat bacterial infection?",
+      "category": "relationship",
+      "expected_entities": ["drug_ofloxacin_ophthalmic", "condition_bacterial_infection"],
+      "expected_relationship_ids": ["drug_ofloxacin_ophthalmic_treats_condition_bacterial_infection"],
+      "expected_relationship_types": ["TREATS"],
+      "expected_source_ids": ["f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"],
+      "expected_hop_count": 1,
+      "answerable": true
+    },
+    {
+      "id": "q5",
+      "question": "What conditions are treated by Mezereum?",
+      "category": "relationship",
+      "expected_entities": ["drug_mezereum", "condition_pruritus"],
+      "expected_relationship_ids": ["drug_mezereum_treats_condition_pruritus"],
+      "expected_relationship_types": ["TREATS"],
+      "expected_source_ids": ["01f4b0f6-94df-fd91-e063-6394a90a7997"],
+      "expected_hop_count": 1,
+      "answerable": true
+    },
+    {
+      "id": "q6",
+      "question": "Which conditions are treated by the drug that interacts with cyclosporine?",
+      "category": "two_hop",
+      "expected_entities": ["drug_naproxen", "drug_cyclosporine", "condition_rheumatoid_arthritis"],
+      "expected_relationship_ids": [
+        "drug_naproxen_interacts_with_drug_cyclosporine",
+        "drug_naproxen_treats_condition_rheumatoid_arthritis"
+      ],
+      "expected_relationship_types": ["INTERACTS_WITH", "TREATS"],
+      "expected_source_ids": ["8c45ef1f-f708-485b-bc20-60aa87ce6289"],
+      "expected_hop_count": 2,
+      "answerable": true
+    },
+    {
+      "id": "q7",
+      "question": "What is the relationship between the drug that treats gout and aspirin?",
+      "category": "two_hop",
+      "expected_entities": ["drug_naproxen", "drug_aspirin", "condition_gout"],
+      "expected_relationship_ids": [
+        "drug_naproxen_interacts_with_drug_aspirin",
+        "drug_naproxen_treats_condition_gout"
+      ],
+      "expected_relationship_types": ["INTERACTS_WITH", "TREATS"],
+      "expected_source_ids": ["8c45ef1f-f708-485b-bc20-60aa87ce6289"],
+      "expected_hop_count": 2,
+      "answerable": true
+    },
+    {
+      "id": "q8",
+      "question": "Describe the graph path linking gout, naproxen, cyclosporine, and quinolones.",
+      "category": "multi_hop",
+      "expected_entities": ["condition_gout", "drug_naproxen", "drug_cyclosporine", "drug_quinolones"],
+      "expected_relationship_ids": [
+        "drug_naproxen_treats_condition_gout",
+        "drug_naproxen_interacts_with_drug_cyclosporine",
+        "drug_quinolones_interacts_with_drug_cyclosporine"
+      ],
+      "expected_relationship_types": ["TREATS", "INTERACTS_WITH"],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+      ],
+      "expected_hop_count": 3,
+      "answerable": true
+    },
+    {
+      "id": "q9",
+      "question": "How are aspirin, naproxen, cyclosporine, and quinolones connected through drug interactions?",
+      "category": "multi_hop",
+      "expected_entities": ["drug_aspirin", "drug_naproxen", "drug_cyclosporine", "drug_quinolones"],
+      "expected_relationship_ids": [
+        "drug_naproxen_interacts_with_drug_aspirin",
+        "drug_naproxen_interacts_with_drug_cyclosporine",
+        "drug_quinolones_interacts_with_drug_cyclosporine"
+      ],
+      "expected_relationship_types": ["INTERACTS_WITH"],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+      ],
+      "expected_hop_count": 3,
+      "answerable": true
+    },
+    {
+      "id": "q10",
+      "question": "Does Naproxen interact with Warfarin or anticoagulants?",
+      "category": "interaction",
+      "expected_entities": ["drug_naproxen", "drug_warfarin"],
+      "expected_relationship_ids": ["drug_naproxen_interacts_with_drug_warfarin"],
+      "expected_relationship_types": ["INTERACTS_WITH"],
+      "expected_source_ids": ["8c45ef1f-f708-485b-bc20-60aa87ce6289"],
+      "expected_hop_count": 1,
+      "answerable": true
+    },
+    {
+      "id": "q11",
+      "question": "Can Naproxen interfere with the antiplatelet effect of low-dose aspirin?",
+      "category": "interaction",
+      "expected_entities": ["drug_naproxen", "drug_aspirin"],
+      "expected_relationship_ids": ["drug_naproxen_interacts_with_drug_aspirin"],
+      "expected_relationship_types": ["INTERACTS_WITH"],
+      "expected_source_ids": ["8c45ef1f-f708-485b-bc20-60aa87ce6289"],
+      "expected_hop_count": 1,
+      "answerable": true
+    },
+    {
+      "id": "q12",
+      "question": "Why is Silicea contraindicated for pregnant or breastfeeding women?",
+      "category": "contraindication",
+      "expected_entities": ["drug_this_product", "population_pregnant_women", "population_breastfeeding_women"],
+      "expected_relationship_ids": [
+        "drug_this_product_contraindicated_for_population_pregnant_women",
+        "drug_this_product_contraindicated_for_population_breastfeeding_women"
+      ],
+      "expected_relationship_types": ["CONTRAINDICATED_FOR"],
+      "expected_source_ids": ["ca7bbcc8-2354-375c-e053-2995a90a72a0"],
+      "expected_hop_count": 1,
+      "answerable": true
+    },
+    {
+      "id": "q13",
+      "question": "Is Ofloxacin ophthalmic solution contraindicated in patients with a history of hypersensitivity to other quinolones?",
+      "category": "contraindication",
+      "expected_entities": ["drug_ofloxacin_ophthalmic", "condition_ofloxacin_hypersensitivity"],
+      "expected_relationship_ids": ["drug_ofloxacin_ophthalmic_contraindicated_for_condition_ofloxacin_hypersensitivity"],
+      "expected_relationship_types": ["CONTRAINDICATED_FOR"],
+      "expected_source_ids": ["f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"],
+      "expected_hop_count": 1,
+      "answerable": true
+    },
+    {
+      "id": "q14",
+      "question": "What clinical study or document source provides details on the 86% improvement rate of Ofloxacin ophthalmic solution versus placebo?",
+      "category": "citation",
+      "expected_entities": ["drug_ofloxacin_ophthalmic"],
+      "expected_relationship_ids": [],
+      "expected_relationship_types": [],
+      "expected_source_ids": ["f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"],
+      "expected_hop_count": 0,
+      "answerable": true
+    },
+    {
+      "id": "q15",
+      "question": "Which publisher or document contains safety information warning about renal impairment and creatinine clearance below 30 mL/min for Naproxen?",
+      "category": "citation",
+      "expected_entities": ["drug_naproxen"],
+      "expected_relationship_ids": [],
+      "expected_relationship_types": [],
+      "expected_source_ids": ["8c45ef1f-f708-485b-bc20-60aa87ce6289"],
+      "expected_hop_count": 0,
+      "answerable": true
+    },
+    {
+      "id": "q16",
+      "question": "What are the long-term cardiovascular side effects of taking Silicea for more than five years?",
+      "category": "unanswerable",
+      "expected_entities": [],
+      "expected_relationship_ids": [],
+      "expected_relationship_types": [],
+      "expected_source_ids": [],
+      "expected_hop_count": 0,
+      "answerable": false
+    },
+    {
+      "id": "q17",
+      "question": "Is Ofloxacin ophthalmic solution approved for treating eye infections in household pets?",
+      "category": "unanswerable",
+      "expected_entities": [],
+      "expected_relationship_ids": [],
+      "expected_relationship_types": [],
+      "expected_source_ids": [],
+      "expected_hop_count": 0,
+      "answerable": false
+    },
+    {
+      "id": "q18",
+      "question": "Does Mezereum interact with lithium or digoxin?",
+      "category": "unanswerable",
+      "expected_entities": [],
+      "expected_relationship_ids": [],
+      "expected_relationship_types": [],
+      "expected_source_ids": [],
+      "expected_hop_count": 0,
+      "answerable": false
+    },
+    {
+      "id": "q19",
+      "question": "What is the recommended dose of Betadine for pediatric patients under six months of age?",
+      "category": "unanswerable",
+      "expected_entities": [],
+      "expected_relationship_ids": [],
+      "expected_relationship_types": [],
+      "expected_source_ids": [],
+      "expected_hop_count": 0,
+      "answerable": false
+    },
+    {
+      "id": "q20",
+      "question": "How does Naproxen compare with Ibuprofen in terms of gastrointestinal safety profiles in clinical trials?",
+      "category": "unanswerable",
+      "expected_entities": [],
+      "expected_relationship_ids": [],
+      "expected_relationship_types": [],
+      "expected_source_ids": [],
+      "expected_hop_count": 0,
+      "answerable": false
+    }
+  ],
+  "corpus_coverage_note": "The clinical corpus has partial extraction coverage over 20 documents. The benchmark set reflects active entity types and relationships that were populated in the graph and vector stores, and includes unanswerable questions that target missing information intentionally."
+}

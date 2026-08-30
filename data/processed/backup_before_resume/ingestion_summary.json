@@ -1,0 +1,60 @@
+{
+  "extraction_mode": "mock fallback",
+  "num_source_documents": 20,
+  "num_successfully_parsed": 20,
+  "num_failed_documents": 0,
+  "num_chunks": 134,
+  "num_failed_chunks": 0,
+  "num_entities": 290,
+  "num_relationships": 247,
+  "num_rejected": 0,
+  "num_contradictions": 0,
+  "total_chunks": 134,
+  "previously_successful_chunks": 68,
+  "newly_successful_chunks": 70,
+  "remaining_failed_chunks": 0,
+  "documents_processed": 20,
+  "chunks_processed": 134,
+  "batches_processed": 18,
+  "successful_batches": 18,
+  "failed_batches": 0,
+  "raw_entity_count": 685,
+  "unique_validated_entity_count": 290,
+  "entity_distribution_by_type": {
+    "Drug": 62,
+    "Population": 18,
+    "Condition": 65,
+    "SideEffect": 124,
+    "Symptom": 8,
+    "ClinicalStudy": 13
+  },
+  "raw_relationship_count": 323,
+  "unique_validated_relationship_count": 247,
+  "relationship_distribution_by_type": {
+    "CONTRAINDICATED_FOR": 16,
+    "TREATS": 55,
+    "CAUSES": 128,
+    "INTERACTS_WITH": 39,
+    "HAS_SYMPTOM": 9
+  },
+  "validation_rejections": 0,
+  "contradiction_flags": 0,
+  "extraction_failures": 0,
+  "http_429_occurrences": 0,
+  "total_execution_time_seconds": 0.62,
+  "average_time_per_batch_seconds": 0.03,
+  "final_output_file_sizes_bytes": {
+    "documents.json": 310910,
+    "chunks.json": 376185,
+    "entities.json": 79364,
+    "relationships.json": 79126
+  },
+  "neo4j_populated": "No",
+  "output_files": [
+    "data/processed/documents.json",
+    "data/processed/chunks.json",
+    "data/processed/entities.json",
+    "data/processed/relationships.json",
+    "data/processed/ingestion_summary.json"
+  ]
+}

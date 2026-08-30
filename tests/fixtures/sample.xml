@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE">
+      <PMID Version="1">32895678</PMID>
+      <Article PubModel="Print">
+        <Journal>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>12</Volume>
+            <Issue>3</Issue>
+            <PubDate>
+              <Year>2022</Year>
+              <Month>Sep</Month>
+            </PubDate>
+          </JournalIssue>
+          <Title>Journal of Clinical Endocrinology</Title>
+        </Journal>
+        <ArticleTitle>Efficacy and Side Effects of Metformin in Type 2 Diabetes.</ArticleTitle>
+        <Abstract>
+          <AbstractText Label="BACKGROUND">Metformin is the first-line pharmacotherapy for type 2 diabetes.</AbstractText>
+          <AbstractText Label="METHODS">We conducted a retrospective cohort study of 500 patients.</AbstractText>
+          <AbstractText Label="RESULTS">Metformin significantly reduced HbA1c with common gastrointestinal side effects including diarrhea and abdominal discomfort.</AbstractText>
+          <AbstractText Label="CONCLUSIONS">Metformin remains effective with a well-characterized safety profile.</AbstractText>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Smith</LastName>
+            <ForeName>Alice R</ForeName>
+            <Initials>AR</Initials>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Jones</LastName>
+            <ForeName>Robert B</ForeName>
+            <Initials>RB</Initials>
+          </Author>
+        </AuthorList>
+      </Article>
+    </MedlineCitation>
+  </PubmedArticle>
+</PubmedArticleSet>

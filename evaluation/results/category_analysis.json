@@ -1,0 +1,690 @@
+{
+  "categories": {
+    "contraindication": {
+      "vector": {
+        "count": 2,
+        "mean_precision_at_5": 0.1,
+        "mean_recall_at_5": 0.5,
+        "mean_mrr": 0.5,
+        "median_latency_ms": 36.89314998337068,
+        "p95_latency_ms": 38.859784975647926
+      },
+      "graph": {
+        "count": 2,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 103.03395001392346,
+        "p95_latency_ms": 129.87712501053466
+      },
+      "hybrid": {
+        "count": 2,
+        "mean_precision_at_5": 0.1,
+        "mean_recall_at_5": 0.5,
+        "mean_mrr": 0.5,
+        "median_latency_ms": 136.3666499964893,
+        "p95_latency_ms": 151.3162349932827
+      }
+    },
+    "unanswerable": {
+      "vector": {
+        "count": 5,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 42.415899981278926,
+        "p95_latency_ms": 45.84601998212747,
+        "evidence_retrieved_count": 5,
+        "insufficient_evidence_count": 0
+      },
+      "graph": {
+        "count": 5,
+        "mean_precision_at_5": 1.0,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 78.3919999958016,
+        "p95_latency_ms": 83.38173999800347,
+        "evidence_retrieved_count": 0,
+        "insufficient_evidence_count": 5
+      },
+      "hybrid": {
+        "count": 5,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 127.34440001077019,
+        "p95_latency_ms": 157.6190000108909,
+        "evidence_retrieved_count": 5,
+        "insufficient_evidence_count": 0
+      }
+    },
+    "interaction": {
+      "vector": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 35.70859998581,
+        "p95_latency_ms": 39.40723999112379
+      },
+      "graph": {
+        "count": 2,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 134.1060499980813,
+        "p95_latency_ms": 138.60573498677695
+      },
+      "hybrid": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 1178.9464500034228,
+        "p95_latency_ms": 2014.9267949862406
+      }
+    },
+    "direct": {
+      "vector": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 5620.036949985661,
+        "p95_latency_ms": 10648.941614979412
+      },
+      "graph": {
+        "count": 2,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 604.6133999916492,
+        "p95_latency_ms": 1087.7801099952194
+      },
+      "hybrid": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 119.62909999419935,
+        "p95_latency_ms": 127.95274998643436
+      }
+    },
+    "citation": {
+      "vector": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 39.311949993134476,
+        "p95_latency_ms": 42.39980499696685
+      },
+      "graph": {
+        "count": 2,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 388.5230499872705,
+        "p95_latency_ms": 654.5988249956281
+      },
+      "hybrid": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 0.75,
+        "median_latency_ms": 232.80134999367874,
+        "p95_latency_ms": 352.29817498038756
+      }
+    },
+    "relationship": {
+      "vector": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 30.263750013546087,
+        "p95_latency_ms": 32.529995021468494
+      },
+      "graph": {
+        "count": 2,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 95.02755000721663,
+        "p95_latency_ms": 101.50813500513323
+      },
+      "hybrid": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 0.75,
+        "median_latency_ms": 144.83444999495987,
+        "p95_latency_ms": 180.2667749885586
+      }
+    },
+    "multi_hop": {
+      "vector": {
+        "count": 2,
+        "mean_precision_at_5": 0.4,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 40.10044998722151,
+        "p95_latency_ms": 40.30371498956811
+      },
+      "graph": {
+        "count": 2,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 75.62120001239236,
+        "p95_latency_ms": 80.62007000407903
+      },
+      "hybrid": {
+        "count": 2,
+        "mean_precision_at_5": 0.4,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 136.33500000287313,
+        "p95_latency_ms": 155.89694998197956
+      }
+    },
+    "two_hop": {
+      "vector": {
+        "count": 2,
+        "mean_precision_at_5": 0.1,
+        "mean_recall_at_5": 0.5,
+        "mean_mrr": 0.5,
+        "median_latency_ms": 35.75090000231285,
+        "p95_latency_ms": 39.77219001535559
+      },
+      "graph": {
+        "count": 2,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 128.87689999479335,
+        "p95_latency_ms": 147.74512998264981
+      },
+      "hybrid": {
+        "count": 2,
+        "mean_precision_at_5": 0.1,
+        "mean_recall_at_5": 0.5,
+        "mean_mrr": 0.25,
+        "median_latency_ms": 122.45525000616908,
+        "p95_latency_ms": 129.35784502187744
+      }
+    },
+    "semantic": {
+      "vector": {
+        "count": 1,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 35.51719998358749,
+        "p95_latency_ms": 35.51719998358749
+      },
+      "graph": {
+        "count": 1,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 87.53930000239052,
+        "p95_latency_ms": 87.53930000239052
+      },
+      "hybrid": {
+        "count": 1,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 0.5,
+        "median_latency_ms": 110.62790002324618,
+        "p95_latency_ms": 110.62790002324618
+      }
+    }
+  },
+  "subsets": {
+    "multi_hop_subset": {
+      "vector": {
+        "count": 4,
+        "mean_precision_at_5": 0.25,
+        "mean_recall_at_5": 0.75,
+        "mean_mrr": 0.75,
+        "median_latency_ms": 40.04680000070948,
+        "p95_latency_ms": 40.31020499387523
+      },
+      "graph": {
+        "count": 4,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 94.54385000572074,
+        "p95_latency_ms": 143.55218998534835
+      },
+      "hybrid": {
+        "count": 4,
+        "mean_precision_at_5": 0.25,
+        "mean_recall_at_5": 0.75,
+        "mean_mrr": 0.625,
+        "median_latency_ms": 122.45525000616908,
+        "p95_latency_ms": 153.87864498625277
+      }
+    },
+    "relationship_heavy_subset": {
+      "vector": {
+        "count": 6,
+        "mean_precision_at_5": 0.16666666666666666,
+        "mean_recall_at_5": 0.8333333333333334,
+        "mean_mrr": 0.8333333333333334,
+        "median_latency_ms": 33.744900007150136,
+        "p95_latency_ms": 39.63322498748312
+      },
+      "graph": {
+        "count": 6,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 115.6673000077717,
+        "p95_latency_ms": 137.54419999168022
+      },
+      "hybrid": {
+        "count": 6,
+        "mean_precision_at_5": 0.16666666666666666,
+        "mean_recall_at_5": 0.8333333333333334,
+        "mean_mrr": 0.75,
+        "median_latency_ms": 168.5904999903869,
+        "p95_latency_ms": 1643.379974993877
+      }
+    },
+    "direct_semantic_subset": {
+      "vector": {
+        "count": 3,
+        "mean_precision_at_5": 0.20000000000000004,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 35.51719998358749,
+        "p95_latency_ms": 10090.489639979205
+      },
+      "graph": {
+        "count": 3,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 87.53930000239052,
+        "p95_latency_ms": 1036.0726999962935
+      },
+      "hybrid": {
+        "count": 3,
+        "mean_precision_at_5": 0.20000000000000004,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 0.8333333333333334,
+        "median_latency_ms": 110.62790002324618,
+        "p95_latency_ms": 127.05262998933904
+      }
+    },
+    "citation_subset": {
+      "vector": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 1.0,
+        "median_latency_ms": 39.311949993134476,
+        "p95_latency_ms": 42.39980499696685
+      },
+      "graph": {
+        "count": 2,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 388.5230499872705,
+        "p95_latency_ms": 654.5988249956281
+      },
+      "hybrid": {
+        "count": 2,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 1.0,
+        "mean_mrr": 0.75,
+        "median_latency_ms": 232.80134999367874,
+        "p95_latency_ms": 352.29817498038756
+      }
+    },
+    "overall_answerable_only": {
+      "vector": {
+        "count": 15,
+        "mean_precision_at_5": 0.20000000000000007,
+        "mean_recall_at_5": 0.8666666666666667,
+        "mean_mrr": 0.8666666666666667,
+        "median_latency_ms": 35.88099998887628,
+        "p95_latency_ms": 3392.2326699917785
+      },
+      "graph": {
+        "count": 15,
+        "mean_precision_at_5": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_mrr": 0.0,
+        "median_latency_ms": 102.22820000490174,
+        "p95_latency_ms": 821.3535499962741
+      },
+      "hybrid": {
+        "count": 15,
+        "mean_precision_at_5": 0.20000000000000007,
+        "mean_recall_at_5": 0.8666666666666667,
+        "mean_mrr": 0.7333333333333333,
+        "median_latency_ms": 128.87759998557158,
+        "p95_latency_ms": 888.2469699805351
+      }
+    }
+  },
+  "individual_queries": [
+    {
+      "question_id": "q6",
+      "category": "two_hop",
+      "answerable": true,
+      "retrieval_mode": "vector",
+      "retrieved_source_ids": [
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff",
+        "528f5a4e-274b-5b3c-e054-00144ff8d46c",
+        "26cca05b-82f8-e191-e063-6394a90a56bd"
+      ],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 3,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "mrr": 0.0,
+      "retrieval_latency_ms": 31.28279998782091,
+      "total_latency_ms": 31.28279998782091,
+      "answer_text": "",
+      "status": "success",
+      "unanswerable_eval": {
+        "evidence_retrieved": true,
+        "insufficient_evidence_state": false
+      }
+    },
+    {
+      "question_id": "q6",
+      "category": "two_hop",
+      "answerable": true,
+      "retrieval_mode": "graph",
+      "retrieved_source_ids": [],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 0,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "mrr": 0.0,
+      "retrieval_latency_ms": 107.91220000828616,
+      "total_latency_ms": 107.91220000828616,
+      "answer_text": "",
+      "status": "insufficient_evidence",
+      "unanswerable_eval": {
+        "evidence_retrieved": false,
+        "insufficient_evidence_state": true
+      }
+    },
+    {
+      "question_id": "q6",
+      "category": "two_hop",
+      "answerable": true,
+      "retrieval_mode": "hybrid",
+      "retrieved_source_ids": [
+        "26cca05b-82f8-e191-e063-6394a90a56bd",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff",
+        "528f5a4e-274b-5b3c-e054-00144ff8d46c"
+      ],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 3,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "mrr": 0.0,
+      "retrieval_latency_ms": 114.78569998871535,
+      "total_latency_ms": 114.78569998871535,
+      "answer_text": "",
+      "status": "ok",
+      "unanswerable_eval": {
+        "evidence_retrieved": true,
+        "insufficient_evidence_state": false
+      }
+    },
+    {
+      "question_id": "q7",
+      "category": "two_hop",
+      "answerable": true,
+      "retrieval_mode": "vector",
+      "retrieved_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "26cca05b-82f8-e191-e063-6394a90a56bd"
+      ],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 2,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieval_latency_ms": 40.219000016804785,
+      "total_latency_ms": 40.219000016804785,
+      "answer_text": "",
+      "status": "success",
+      "unanswerable_eval": {
+        "evidence_retrieved": true,
+        "insufficient_evidence_state": false
+      }
+    },
+    {
+      "question_id": "q7",
+      "category": "two_hop",
+      "answerable": true,
+      "retrieval_mode": "graph",
+      "retrieved_source_ids": [],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 0,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "mrr": 0.0,
+      "retrieval_latency_ms": 149.84159998130053,
+      "total_latency_ms": 149.84159998130053,
+      "answer_text": "",
+      "status": "insufficient_evidence",
+      "unanswerable_eval": {
+        "evidence_retrieved": false,
+        "insufficient_evidence_state": true
+      }
+    },
+    {
+      "question_id": "q7",
+      "category": "two_hop",
+      "answerable": true,
+      "retrieval_mode": "hybrid",
+      "retrieved_source_ids": [
+        "26cca05b-82f8-e191-e063-6394a90a56bd",
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+      ],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 2,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "mrr": 0.5,
+      "retrieval_latency_ms": 130.1248000236228,
+      "total_latency_ms": 130.1248000236228,
+      "answer_text": "",
+      "status": "ok",
+      "unanswerable_eval": {
+        "evidence_retrieved": true,
+        "insufficient_evidence_state": false
+      }
+    },
+    {
+      "question_id": "q8",
+      "category": "multi_hop",
+      "answerable": true,
+      "retrieval_mode": "vector",
+      "retrieved_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "528f5a4e-274b-5b3c-e054-00144ff8d46c",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+      ],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 3,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieval_latency_ms": 40.32629998982884,
+      "total_latency_ms": 40.32629998982884,
+      "answer_text": "",
+      "status": "success",
+      "unanswerable_eval": {
+        "evidence_retrieved": true,
+        "insufficient_evidence_state": false
+      }
+    },
+    {
+      "question_id": "q8",
+      "category": "multi_hop",
+      "answerable": true,
+      "retrieval_mode": "graph",
+      "retrieved_source_ids": [],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 0,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "mrr": 0.0,
+      "retrieval_latency_ms": 70.06690002162941,
+      "total_latency_ms": 70.06690002162941,
+      "answer_text": "",
+      "status": "insufficient_evidence",
+      "unanswerable_eval": {
+        "evidence_retrieved": false,
+        "insufficient_evidence_state": true
+      }
+    },
+    {
+      "question_id": "q8",
+      "category": "multi_hop",
+      "answerable": true,
+      "retrieval_mode": "hybrid",
+      "retrieved_source_ids": [
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff",
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "528f5a4e-274b-5b3c-e054-00144ff8d46c"
+      ],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 3,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieval_latency_ms": 114.59950002608821,
+      "total_latency_ms": 114.59950002608821,
+      "answer_text": "",
+      "status": "ok",
+      "unanswerable_eval": {
+        "evidence_retrieved": true,
+        "insufficient_evidence_state": false
+      }
+    },
+    {
+      "question_id": "q9",
+      "category": "multi_hop",
+      "answerable": true,
+      "retrieval_mode": "vector",
+      "retrieved_source_ids": [
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff",
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "528f5a4e-274b-5b3c-e054-00144ff8d46c"
+      ],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 3,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieval_latency_ms": 39.87459998461418,
+      "total_latency_ms": 39.87459998461418,
+      "answer_text": "",
+      "status": "success",
+      "unanswerable_eval": {
+        "evidence_retrieved": true,
+        "insufficient_evidence_state": false
+      }
+    },
+    {
+      "question_id": "q9",
+      "category": "multi_hop",
+      "answerable": true,
+      "retrieval_mode": "graph",
+      "retrieved_source_ids": [],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 0,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "mrr": 0.0,
+      "retrieval_latency_ms": 81.17550000315532,
+      "total_latency_ms": 81.17550000315532,
+      "answer_text": "",
+      "status": "insufficient_evidence",
+      "unanswerable_eval": {
+        "evidence_retrieved": false,
+        "insufficient_evidence_state": true
+      }
+    },
+    {
+      "question_id": "q9",
+      "category": "multi_hop",
+      "answerable": true,
+      "retrieval_mode": "hybrid",
+      "retrieved_source_ids": [
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff",
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "528f5a4e-274b-5b3c-e054-00144ff8d46c"
+      ],
+      "expected_source_ids": [
+        "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+        "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+      ],
+      "graph_paths": [],
+      "number_of_retrieved_evidence_items": 3,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "mrr": 1.0,
+      "retrieval_latency_ms": 158.07049997965805,
+      "total_latency_ms": 158.07049997965805,
+      "answer_text": "",
+      "status": "ok",
+      "unanswerable_eval": {
+        "evidence_retrieved": true,
+        "insufficient_evidence_state": false
+      }
+    }
+  ]
+}

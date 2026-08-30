@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "id": "label_metformin_001",
+      "effective_time": "20241015",
+      "title": "Metformin Hydrochloride Tablet",
+      "openfda": {
+        "brand_name": ["Metformin"],
+        "generic_name": ["Metformin Hydrochloride"],
+        "manufacturer_name": ["Generic Pharma Corp"],
+        "url": ["https://open.fda.gov/drugs/label/metformin"]
+      },
+      "indications_and_usage": [
+        "Metformin Hydrochloride Tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus."
+      ],
+      "contraindications": [
+        "Metformin Hydrochloride Tablets are contraindicated in patients with: 1. Severe renal impairment (eGFR below 30 mL/min/1.73 m2). 2. Known hypersensitivity to metformin hydrochloride. 3. Acute or chronic metabolic acidosis, including diabetic ketoacidosis."
+      ],
+      "adverse_reactions": [
+        "The most common adverse reactions associated with Metformin Hydrochloride Tablets are diarrhea, nausea, vomiting, flatulence, asthenia, indigestion, abdominal discomfort, and headache."
+      ],
+      "warnings_and_precautions": [
+        "Lactic Acidosis: Postmarketing cases of metformin-associated lactic acidosis have resulted in death, hypothermia, hypotension, and resistant bradyarrhythmias."
+      ]
+    }
+  ]
+}

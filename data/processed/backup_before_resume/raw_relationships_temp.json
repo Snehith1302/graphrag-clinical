@@ -1,0 +1,3232 @@
+[
+  {
+    "relation_id": "drug_this_product_contraindicated_for_population_pregnant_women",
+    "source_entity_id": "drug_this_product",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_pregnant_women",
+    "confidence": 0.85,
+    "source_ids": [
+      "ca7bbcc8-2354-375c-e053-2995a90a72a0"
+    ]
+  },
+  {
+    "relation_id": "drug_this_product_contraindicated_for_population_breastfeeding_women",
+    "source_entity_id": "drug_this_product",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_breastfeeding_women",
+    "confidence": 0.85,
+    "source_ids": [
+      "ca7bbcc8-2354-375c-e053-2995a90a72a0"
+    ]
+  },
+  {
+    "relation_id": "drug_mezereum_treats_condition_pruritus",
+    "source_entity_id": "drug_mezereum",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_pruritus",
+    "confidence": 0.95,
+    "source_ids": [
+      "01f4b0f6-94df-fd91-e063-6394a90a7997"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_ophthalmic_treats_condition_bacterial_infection",
+    "source_entity_id": "drug_ofloxacin_ophthalmic",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_bacterial_infection",
+    "confidence": 0.95,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_ophthalmic_contraindicated_for_condition_ofloxacin_hypersensitivity",
+    "source_entity_id": "drug_ofloxacin_ophthalmic",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_ofloxacin_hypersensitivity",
+    "confidence": 0.95,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_systemic_quinolones_causes_sideeffect_anaphylactic_shock",
+    "source_entity_id": "drug_systemic_quinolones",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_anaphylactic_shock",
+    "confidence": 0.85,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_systemic_quinolones_causes_sideeffect_fatal_hypersensitivity_reaction",
+    "source_entity_id": "drug_systemic_quinolones",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fatal_hypersensitivity_reaction",
+    "confidence": 0.85,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_anaphylactic_shock",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_anaphylactic_shock",
+    "confidence": 0.85,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_fatal_hypersensitivity_reaction",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fatal_hypersensitivity_reaction",
+    "confidence": 0.85,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_cardiovascular_collapse",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_cardiovascular_collapse",
+    "confidence": 0.8,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_loss_of_consciousness",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_loss_of_consciousness",
+    "confidence": 0.8,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_angioedema",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_angioedema",
+    "confidence": 0.8,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_airway_obstruction",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_airway_obstruction",
+    "confidence": 0.8,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_dyspnea",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dyspnea",
+    "confidence": 0.8,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_urticaria",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_urticaria",
+    "confidence": 0.8,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_pruritus",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_pruritus",
+    "confidence": 0.8,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_ophthalmic_causes_sideeffect_stevensjohnson_syndrome",
+    "source_entity_id": "drug_ofloxacin_ophthalmic",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_stevensjohnson_syndrome",
+    "confidence": 0.95,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_ophthalmic_causes_sideeffect_toxic_epidermal_necrolysis",
+    "source_entity_id": "drug_ofloxacin_ophthalmic",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_toxic_epidermal_necrolysis",
+    "confidence": 0.9,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_causes_sideeffect_allergic_reaction",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_allergic_reaction",
+    "confidence": 0.9,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_quinolones_interacts_with_drug_theophylline",
+    "source_entity_id": "drug_quinolones",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_theophylline",
+    "confidence": 0.85,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_quinolones_interacts_with_drug_caffeine",
+    "source_entity_id": "drug_quinolones",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_caffeine",
+    "confidence": 0.85,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_quinolones_interacts_with_drug_warfarin",
+    "source_entity_id": "drug_quinolones",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_warfarin",
+    "confidence": 0.85,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_quinolones_interacts_with_drug_cyclosporine",
+    "source_entity_id": "drug_quinolones",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_cyclosporine",
+    "confidence": 0.85,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_treats_condition_conjunctivitis",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_conjunctivitis",
+    "confidence": 0.95,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_ofloxacin_treats_condition_corneal_ulcer",
+    "source_entity_id": "drug_ofloxacin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_corneal_ulcer",
+    "confidence": 0.95,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_tobramycin_treats_condition_corneal_ulcer",
+    "source_entity_id": "drug_tobramycin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_corneal_ulcer",
+    "confidence": 0.9,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_cefazolin_treats_condition_corneal_ulcer",
+    "source_entity_id": "drug_cefazolin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_corneal_ulcer",
+    "confidence": 0.9,
+    "source_ids": [
+      "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_rheumatoid_arthritis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_rheumatoid_arthritis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_osteoarthritis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_osteoarthritis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_ankylosing_spondylitis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_ankylosing_spondylitis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_polyarticular_juvenile_idiopathic_arthritis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_polyarticular_juvenile_idiopathic_arthritis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_tendonitis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_tendonitis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_bursitis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_bursitis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_gout",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_gout",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_pain",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_pain",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_primary_dysmenorrhea",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_primary_dysmenorrhea",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_sodium_treats_condition_rheumatoid_arthritis",
+    "source_entity_id": "drug_naproxen_sodium",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_rheumatoid_arthritis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_sodium_treats_condition_osteoarthritis",
+    "source_entity_id": "drug_naproxen_sodium",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_osteoarthritis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_sodium_treats_condition_ankylosing_spondylitis",
+    "source_entity_id": "drug_naproxen_sodium",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_ankylosing_spondylitis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_contraindicated_for_condition_asthma",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_asthma",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_contraindicated_for_condition_urticaria",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_urticaria",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_sodium_contraindicated_for_condition_asthma",
+    "source_entity_id": "drug_naproxen_sodium",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_asthma",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_sodium_contraindicated_for_condition_urticaria",
+    "source_entity_id": "drug_naproxen_sodium",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_urticaria",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_decreased_platelet_aggregation",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_decreased_platelet_aggregation",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_prolonged_bleeding_time",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_prolonged_bleeding_time",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_warfarin",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_warfarin",
+    "confidence": 0.97,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_aspirin",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_aspirin",
+    "confidence": 0.97,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_selective_serotonin_reuptake_inhibitors__serotoninnorepinephrine_reuptake_inhibitors",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_selective_serotonin_reuptake_inhibitors__serotoninnorepinephrine_reuptake_inhibitors",
+    "confidence": 0.96,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_ace_inhibitor",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_ace_inhibitor",
+    "confidence": 0.96,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_angiotensin_ii_receptor_antagonist",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_angiotensin_ii_receptor_antagonist",
+    "confidence": 0.96,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_beta_blocker",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_beta_blocker",
+    "confidence": 0.96,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_digoxin",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_digoxin",
+    "confidence": 0.97,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_furosemide",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_furosemide",
+    "confidence": 0.97,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_thiazide",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_thiazide",
+    "confidence": 0.97,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_reversible_infertility",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_reversible_infertility",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_sodium_causes_sideeffect_reversible_infertility",
+    "source_entity_id": "drug_naproxen_sodium",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_reversible_infertility",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_contraindicated_for_condition_renal_impairment",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_renal_impairment",
+    "confidence": 0.94,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_sodium_contraindicated_for_condition_renal_impairment",
+    "source_entity_id": "drug_naproxen_sodium",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_renal_impairment",
+    "confidence": 0.94,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_contraindicated_for_population_women_having_difficulty_conceiving",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_women_having_difficulty_conceiving",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_premature_closure_of_the_fetal_ductus_arteriosus",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_premature_closure_of_the_fetal_ductus_arteriosus",
+    "confidence": 0.96,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_fetal_renal_dysfunction",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fetal_renal_dysfunction",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_oligohydramnios",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_oligohydramnios",
+    "confidence": 0.96,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_neonatal_renal_impairment",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_neonatal_renal_impairment",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_necrotizing_enterocolitis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_necrotizing_enterocolitis",
+    "confidence": 0.93,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_patent_ductus_arteriosus",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_patent_ductus_arteriosus",
+    "confidence": 0.93,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_intracranial_hemorrhage",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_intracranial_hemorrhage",
+    "confidence": 0.93,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_persistent_pulmonary_hypertension_of_the_newborn",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_persistent_pulmonary_hypertension_of_the_newborn",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_renal_dysfunction",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_renal_dysfunction",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_reversible_infertility",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_reversible_infertility",
+    "confidence": 0.94,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_suspension_treats_condition_juvenile_idiopathic_arthritis",
+    "source_entity_id": "drug_naproxen_suspension",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_juvenile_idiopathic_arthritis",
+    "confidence": 0.97,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_contraindicated_for_population_women_having_difficulty_conceiving",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_women_having_difficulty_conceiving",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_suspension_treats_condition_juvenile_idiopathic_arthritis",
+    "source_entity_id": "drug_naproxen_suspension",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_juvenile_idiopathic_arthritis",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_peptic_ulcer",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_peptic_ulcer",
+    "confidence": 0.94,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_bleeding",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_bleeding",
+    "confidence": 0.94,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_renal_toxicity",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_renal_toxicity",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_contraindicated_for_condition_renal_impairment",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_renal_impairment",
+    "confidence": 0.96,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_pain",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_pain",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_inflammation",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_inflammation",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_sodium_treats_condition_pain",
+    "source_entity_id": "drug_naproxen_sodium",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_pain",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_aspirin",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_aspirin",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_arthritis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_arthritis",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_nsaid_interacts_with_drug_aspirin",
+    "source_entity_id": "drug_nsaid",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_aspirin",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_aspirin",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_aspirin",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_pain",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_pain",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_inflammation",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_inflammation",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_sodium_treats_condition_pain",
+    "source_entity_id": "drug_naproxen_sodium",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_pain",
+    "confidence": 0.9,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_surgical_hand_scrub_treats_condition_microorganisms_on_hands",
+    "source_entity_id": "drug_surgical_hand_scrub",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_microorganisms_on_hands",
+    "confidence": 0.85,
+    "source_ids": [
+      "48ec3789-57c6-4834-8a4b-09ae4cb2eb38"
+    ]
+  },
+  {
+    "relation_id": "drug_chlorhexidine_gluconate_causes_sideeffect_eye_injury",
+    "source_entity_id": "drug_chlorhexidine_gluconate",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_eye_injury",
+    "confidence": 0.95,
+    "source_ids": [
+      "48ec3789-57c6-4834-8a4b-09ae4cb2eb38"
+    ]
+  },
+  {
+    "relation_id": "condition_allergic_reaction_has_symptom_symptom_dyspnea",
+    "source_entity_id": "condition_allergic_reaction",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_dyspnea",
+    "confidence": 0.9,
+    "source_ids": [
+      "48ec3789-57c6-4834-8a4b-09ae4cb2eb38"
+    ]
+  },
+  {
+    "relation_id": "condition_allergic_reaction_has_symptom_symptom_urticaria",
+    "source_entity_id": "condition_allergic_reaction",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_urticaria",
+    "confidence": 0.9,
+    "source_ids": [
+      "48ec3789-57c6-4834-8a4b-09ae4cb2eb38"
+    ]
+  },
+  {
+    "relation_id": "condition_allergic_reaction_has_symptom_symptom_shock",
+    "source_entity_id": "condition_allergic_reaction",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_shock",
+    "confidence": 0.9,
+    "source_ids": [
+      "48ec3789-57c6-4834-8a4b-09ae4cb2eb38"
+    ]
+  },
+  {
+    "relation_id": "condition_allergic_reaction_has_symptom_symptom_skin_rash",
+    "source_entity_id": "condition_allergic_reaction",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_skin_rash",
+    "confidence": 0.9,
+    "source_ids": [
+      "48ec3789-57c6-4834-8a4b-09ae4cb2eb38"
+    ]
+  },
+  {
+    "relation_id": "condition_allergic_reaction_has_symptom_symptom_facial_swelling",
+    "source_entity_id": "condition_allergic_reaction",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_facial_swelling",
+    "confidence": 0.9,
+    "source_ids": [
+      "48ec3789-57c6-4834-8a4b-09ae4cb2eb38"
+    ]
+  },
+  {
+    "relation_id": "drug_chlorhexidine_gluconate_contraindicated_for_condition_deep_wounds",
+    "source_entity_id": "drug_chlorhexidine_gluconate",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_deep_wounds",
+    "confidence": 0.95,
+    "source_ids": [
+      "48ec3789-57c6-4834-8a4b-09ae4cb2eb38"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_cleanser_treats_condition_acne",
+    "source_entity_id": "drug_acne_clearing_cleanser",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_acne",
+    "confidence": 0.95,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_tonic_treats_condition_acne",
+    "source_entity_id": "drug_acne_clearing_tonic",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_acne",
+    "confidence": 0.95,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_treatment_101_treats_condition_acne",
+    "source_entity_id": "drug_acne_clearing_treatment_101",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_acne",
+    "confidence": 0.95,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_moisture_with_spf_45_contraindicated_for_condition_sensitive_skin",
+    "source_entity_id": "drug_acne_clearing_moisture_with_spf_45",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_sensitive_skin",
+    "confidence": 0.85,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_moisture_with_spf_45_causes_sideeffect_skin_irritation",
+    "source_entity_id": "drug_acne_clearing_moisture_with_spf_45",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_skin_irritation",
+    "confidence": 0.9,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_moisture_with_spf_45_causes_sideeffect_dry_skin",
+    "source_entity_id": "drug_acne_clearing_moisture_with_spf_45",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dry_skin",
+    "confidence": 0.9,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_moisture_with_spf_45_causes_sideeffect_erythema",
+    "source_entity_id": "drug_acne_clearing_moisture_with_spf_45",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_erythema",
+    "confidence": 0.9,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_moisture_with_spf_45_causes_sideeffect_burning_sensation",
+    "source_entity_id": "drug_acne_clearing_moisture_with_spf_45",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_burning_sensation",
+    "confidence": 0.9,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_moisture_with_spf_45_causes_sideeffect_pruritus",
+    "source_entity_id": "drug_acne_clearing_moisture_with_spf_45",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_pruritus",
+    "confidence": 0.9,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_moisture_with_spf_45_causes_sideeffect_skin_peeling",
+    "source_entity_id": "drug_acne_clearing_moisture_with_spf_45",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_skin_peeling",
+    "confidence": 0.9,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "drug_acne_clearing_moisture_with_spf_45_causes_sideeffect_skin_swelling",
+    "source_entity_id": "drug_acne_clearing_moisture_with_spf_45",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_skin_swelling",
+    "confidence": 0.9,
+    "source_ids": [
+      "d08e6fbf-9162-47cd-9cf6-74ea24d48214"
+    ]
+  },
+  {
+    "relation_id": "condition_common_cold_has_symptom_symptom_nasal_congestion",
+    "source_entity_id": "condition_common_cold",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_nasal_congestion",
+    "confidence": 0.85,
+    "source_ids": [
+      "66a9f5f2-42e8-4500-a1f4-d4eb4e86758b"
+    ]
+  },
+  {
+    "relation_id": "condition_hay_fever_has_symptom_symptom_nasal_congestion",
+    "source_entity_id": "condition_hay_fever",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_nasal_congestion",
+    "confidence": 0.85,
+    "source_ids": [
+      "66a9f5f2-42e8-4500-a1f4-d4eb4e86758b"
+    ]
+  },
+  {
+    "relation_id": "condition_upper_respiratory_allergies_has_symptom_symptom_nasal_congestion",
+    "source_entity_id": "condition_upper_respiratory_allergies",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_nasal_congestion",
+    "confidence": 0.85,
+    "source_ids": [
+      "66a9f5f2-42e8-4500-a1f4-d4eb4e86758b"
+    ]
+  },
+  {
+    "relation_id": "drug_this_product_causes_sideeffect_dizziness",
+    "source_entity_id": "drug_this_product",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dizziness",
+    "confidence": 0.85,
+    "source_ids": [
+      "66a9f5f2-42e8-4500-a1f4-d4eb4e86758b"
+    ]
+  },
+  {
+    "relation_id": "drug_this_product_causes_sideeffect_sleeplessness",
+    "source_entity_id": "drug_this_product",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_sleeplessness",
+    "confidence": 0.85,
+    "source_ids": [
+      "66a9f5f2-42e8-4500-a1f4-d4eb4e86758b"
+    ]
+  },
+  {
+    "relation_id": "drug_this_product_interacts_with_drug_monoamine_oxidase_inhibitor",
+    "source_entity_id": "drug_this_product",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_monoamine_oxidase_inhibitor",
+    "confidence": 0.95,
+    "source_ids": [
+      "66a9f5f2-42e8-4500-a1f4-d4eb4e86758b"
+    ]
+  },
+  {
+    "relation_id": "drug_monoamine_oxidase_inhibitor_treats_condition_depression",
+    "source_entity_id": "drug_monoamine_oxidase_inhibitor",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_depression",
+    "confidence": 0.9,
+    "source_ids": [
+      "66a9f5f2-42e8-4500-a1f4-d4eb4e86758b"
+    ]
+  },
+  {
+    "relation_id": "drug_monoamine_oxidase_inhibitor_treats_condition_parkinsons_disease",
+    "source_entity_id": "drug_monoamine_oxidase_inhibitor",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_parkinsons_disease",
+    "confidence": 0.9,
+    "source_ids": [
+      "66a9f5f2-42e8-4500-a1f4-d4eb4e86758b"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_melanoma",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_melanoma",
+    "confidence": 0.99,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_nonsmall_cell_lung_cancer",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_nonsmall_cell_lung_cancer",
+    "confidence": 0.99,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_anaplastic_thyroid_cancer",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_anaplastic_thyroid_cancer",
+    "confidence": 0.99,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_solid_tumor",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_solid_tumor",
+    "confidence": 0.99,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_lowgrade_glioma",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_lowgrade_glioma",
+    "confidence": 0.99,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_rash",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_rash",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_diarrhea",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_diarrhea",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_lymphedema",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_lymphedema",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_fever",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fever",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_nausea",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_nausea",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_chills",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_chills",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_vomiting",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_vomiting",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_hypertension",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_hypertension",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_peripheral_edema",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_peripheral_edema",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_decreased_left_ventricular_ejection_fraction",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_decreased_left_ventricular_ejection_fraction",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_pneumonitis",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_pneumonitis",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_renal_failure",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_renal_failure",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_diarrhea",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_diarrhea",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_rash",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_rash",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_acneiform_dermatitis",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_acneiform_dermatitis",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_stomatitis",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_stomatitis",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_abdominal_pain",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_abdominal_pain",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_braf_v600_mutationpositive_melanoma",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600_mutationpositive_melanoma",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_dabrafenib_treats_condition_braf_v600_mutationpositive_melanoma",
+    "source_entity_id": "drug_dabrafenib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600_mutationpositive_melanoma",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_bradycardia",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_bradycardia",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_atrioventricular_block",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_atrioventricular_block",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_bundle_branch_block",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_bundle_branch_block",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_dry_mouth",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dry_mouth",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_rhabdomyolysis",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_rhabdomyolysis",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_dizziness",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dizziness",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_pyrexia",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_pyrexia",
+    "confidence": 0.92,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_nausea",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_nausea",
+    "confidence": 0.92,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_rash",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_rash",
+    "confidence": 0.92,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_diarrhea",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_diarrhea",
+    "confidence": 0.92,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_vomiting",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_vomiting",
+    "confidence": 0.92,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_hypertension",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_hypertension",
+    "confidence": 0.92,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_braf_v600e_or_v600k_mutationpositive_melanoma",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600e_or_v600k_mutationpositive_melanoma",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_dabrafenib_treats_condition_braf_v600e_or_v600k_mutationpositive_melanoma",
+    "source_entity_id": "drug_dabrafenib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600e_or_v600k_mutationpositive_melanoma",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_pyrexia",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_pyrexia",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_chills",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_chills",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_peripheral_edema",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_peripheral_edema",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_nausea",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_nausea",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_diarrhea",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_diarrhea",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_vomiting",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_vomiting",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_abdominal_pain",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_abdominal_pain",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_rash",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_rash",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_hypertension",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_hypertension",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_sarcoidosis",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_sarcoidosis",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_guillainbarre_syndrome",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_guillainbarre_syndrome",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_photosensitivity",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_photosensitivity",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_dabrafenib_interacts_with_drug_trametinib",
+    "source_entity_id": "drug_dabrafenib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_trametinib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_dabrafenib_treats_condition_braf_v600_mutationpositive_melanoma",
+    "source_entity_id": "drug_dabrafenib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600_mutationpositive_melanoma",
+    "confidence": 0.97,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_braf_v600_mutationpositive_melanoma",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600_mutationpositive_melanoma",
+    "confidence": 0.97,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_pyrexia",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_pyrexia",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_fatigue",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fatigue",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_headache",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_headache",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_arthralgia",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_arthralgia",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_myalgia",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_myalgia",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_decreased_ejection_fraction",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_decreased_ejection_fraction",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_metastatic_braf_v600e_mutationpositive_nonsmall_cell_lung_cancer",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_metastatic_braf_v600e_mutationpositive_nonsmall_cell_lung_cancer",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_dabrafenib_treats_condition_metastatic_braf_v600e_mutationpositive_nonsmall_cell_lung_cancer",
+    "source_entity_id": "drug_dabrafenib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_metastatic_braf_v600e_mutationpositive_nonsmall_cell_lung_cancer",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_pyrexia",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_pyrexia",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_dry_skin",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dry_skin",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_decreased_appetite",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_decreased_appetite",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_cough",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_cough",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_dyspnea",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dyspnea",
+    "confidence": 0.93,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_braf_v600e_mutationpositive_tumors",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600e_mutationpositive_tumors",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_dabrafenib_treats_condition_braf_v600e_mutationpositive_tumors",
+    "source_entity_id": "drug_dabrafenib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600e_mutationpositive_tumors",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_fever",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fever",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_pneumonia",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_pneumonia",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_sepsis",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_sepsis",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_nausea",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_nausea",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_braf_v600e_mutationpositive_solid_tumors",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600e_mutationpositive_solid_tumors",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_dabrafenib_treats_condition_braf_v600e_mutationpositive_solid_tumors",
+    "source_entity_id": "drug_dabrafenib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600e_mutationpositive_solid_tumors",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_decreased_left_ventricular_ejection_fraction",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_decreased_left_ventricular_ejection_fraction",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_uveitis",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_uveitis",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_vomiting",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_vomiting",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_lowgrade_glioma",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_lowgrade_glioma",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_dabrafenib_treats_condition_lowgrade_glioma",
+    "source_entity_id": "drug_dabrafenib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_lowgrade_glioma",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_fever",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fever",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_skin_rash",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_skin_rash",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_headache",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_headache",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_carboplatin_interacts_with_drug_vincristine",
+    "source_entity_id": "drug_carboplatin",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_vincristine",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_complete_atrioventricular_block",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_complete_atrioventricular_block",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_hemophagocytic_lymphohistiocytosis",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_hemophagocytic_lymphohistiocytosis",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_atrioventricular_block_complete",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_atrioventricular_block_complete",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_hemophagocytic_lymphohistiocytosis",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_hemophagocytic_lymphohistiocytosis",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_severe_cutaneous_adverse_reactions",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_severe_cutaneous_adverse_reactions",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_drug_reaction_with_eosinophilia_and_systemic_symptoms",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_drug_reaction_with_eosinophilia_and_systemic_symptoms",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_stevensjohnson_syndrome",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_stevensjohnson_syndrome",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_contraindicated_for_population_pregnant_women",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_pregnant_women",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_fetal_harm",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fetal_harm",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_unresectable_or_metastatic_braf_v600emutant_solid_tumors",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_unresectable_or_metastatic_braf_v600emutant_solid_tumors",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_lowgrade_glioma_with_braf_v600e_mutation",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_lowgrade_glioma_with_braf_v600e_mutation",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_melanoma",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_melanoma",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_nonsmall_cell_lung_cancer",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_nonsmall_cell_lung_cancer",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_anaplastic_thyroid_cancer",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_anaplastic_thyroid_cancer",
+    "confidence": 0.98,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_peripheral_edema",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_peripheral_edema",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_anorexia",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_anorexia",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_acneiform_rash",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_acneiform_rash",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_colorectal_cancer",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_colorectal_cancer",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_melanoma",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_melanoma",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_causes_sideeffect_qt_interval_prolongation",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_qt_interval_prolongation",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_glioma",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_glioma",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_solid_tumor",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_solid_tumor",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_braf_v600mutant_tumor",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_braf_v600mutant_tumor",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_treats_condition_colorectal_cancer",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_colorectal_cancer",
+    "confidence": 0.95,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_trametinib_interacts_with_drug_dabrafenib",
+    "source_entity_id": "drug_trametinib",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_dabrafenib",
+    "confidence": 0.9,
+    "source_ids": [
+      "235e3bc1-099b-4587-9d72-b02fcc3387d1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_suicidal_ideation_and_behavior",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_suicidal_ideation_and_behavior",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_depression",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_depression",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_anxiety",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_anxiety",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_insomnia",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_insomnia",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_mood_swings",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_mood_swings",
+    "confidence": 0.85,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_aggressive_behavior",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_aggressive_behavior",
+    "confidence": 0.85,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_restlessness",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_restlessness",
+    "confidence": 0.85,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_hyperactivity",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_hyperactivity",
+    "confidence": 0.85,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_treats_condition_postherpetic_neuralgia",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_postherpetic_neuralgia",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_treats_condition_partial_seizures",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_partial_seizures",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_treats_condition_epilepsy",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_epilepsy",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_interacts_with_drug_maalox",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_maalox",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_interacts_with_drug_mylanta",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_mylanta",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_interacts_with_drug_gelusil",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_gelusil",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_interacts_with_drug_gaviscon",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_gaviscon",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_interacts_with_drug_digel",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_digel",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_dizziness",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dizziness",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_ataxia",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_ataxia",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_viral_infection",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_viral_infection",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_somnolence",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_somnolence",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_fatigue",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fatigue",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_fever",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_fever",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_myoclonus",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_myoclonus",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_dysarthria",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dysarthria",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_amnesia",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_amnesia",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_tremor",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_tremor",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_diplopia",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_diplopia",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_causes_sideeffect_nystagmus",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_nystagmus",
+    "confidence": 0.9,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_treats_condition_postherpetic_neuralgia",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_postherpetic_neuralgia",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_treats_condition_epilepsy",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_epilepsy",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_treats_condition_partial_seizures",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_partial_seizures",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_gabapentin_contraindicated_for_condition_drug_hypersensitivity",
+    "source_entity_id": "drug_gabapentin",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "condition_drug_hypersensitivity",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_treats_condition_type_2_diabetes",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_type_2_diabetes",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_contraindicated_for_population_severe_renal_impairment",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_severe_renal_impairment",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_diarrhea",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_diarrhea",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_nausea",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_nausea",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_vomiting",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_vomiting",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_flatulence",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_flatulence",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_indigestion",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_indigestion",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_abdominal_discomfort",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_abdominal_discomfort",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_headache",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_headache",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_causes_sideeffect_asthenia",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_asthenia",
+    "confidence": 0.95,
+    "source_ids": [
+      "label_metformin_001"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_rheumatoid_arthritis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_rheumatoid_arthritis",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_osteoarthritis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_osteoarthritis",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_pain",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_pain",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_dysmenorrhea",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_dysmenorrhea",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_treats_condition_juvenile_idiopathic_arthritis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_juvenile_idiopathic_arthritis",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_dyspepsia",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_dyspepsia",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_abdominal_pain",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_abdominal_pain",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_nausea",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_nausea",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_headache",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_headache",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_skin_rash",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_skin_rash",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_ecchymosis",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_ecchymosis",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_edema",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_edema",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_heartburn",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_heartburn",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_diarrhea",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_diarrhea",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_anaphylactoid_reaction",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_anaphylactoid_reaction",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_hypertension",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_hypertension",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_causes_sideeffect_congestive_heart_failure",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "CAUSES",
+    "target_entity_id": "sideeffect_congestive_heart_failure",
+    "confidence": 0.95,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_warfarin",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_warfarin",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_aspirin",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_aspirin",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_ace_inhibitors",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_ace_inhibitors",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_angiotensin_receptor_blockers",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_angiotensin_receptor_blockers",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_beta_blockers",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_beta_blockers",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_propranolol",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_propranolol",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_diuretics",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_diuretics",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_furosemide",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_furosemide",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_digoxin",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_digoxin",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_digoxin",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_digoxin",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_lithium",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_lithium",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_methotrexate",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_methotrexate",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_cyclosporine",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_cyclosporine",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_diflunisal",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_diflunisal",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_salsalate",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_salsalate",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_pemetrexed",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_pemetrexed",
+    "confidence": 0.99,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_magnesium_oxide",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_magnesium_oxide",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_aluminum_hydroxide",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_aluminum_hydroxide",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_sucralfate",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_sucralfate",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_cholestyramine",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_cholestyramine",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "drug_naproxen_interacts_with_drug_probenecid",
+    "source_entity_id": "drug_naproxen",
+    "relation_type": "INTERACTS_WITH",
+    "target_entity_id": "drug_probenecid",
+    "confidence": 0.98,
+    "source_ids": [
+      "8c45ef1f-f708-485b-bc20-60aa87ce6289"
+    ]
+  },
+  {
+    "relation_id": "condition_type_2_diabetes_has_symptom_symptom_polyuria",
+    "source_entity_id": "condition_type_2_diabetes",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_polyuria",
+    "confidence": 0.95,
+    "source_ids": [
+      "29c0c23b-f87d-4a94-a411-4091f399ecd1"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_treats_condition_type_2_diabetes",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_type_2_diabetes",
+    "confidence": 0.95,
+    "source_ids": [
+      "26cca05b-82f8-e191-e063-6394a90a56bd"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_contraindicated_for_population_pregnancy",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_pregnancy",
+    "confidence": 0.95,
+    "source_ids": [
+      "26cca05b-82f8-e191-e063-6394a90a56bd"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_treats_condition_type_2_diabetes",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "TREATS",
+    "target_entity_id": "condition_type_2_diabetes",
+    "confidence": 0.95,
+    "source_ids": [
+      "26cca05b-82f8-e191-e063-6394a90a56bd"
+    ]
+  },
+  {
+    "relation_id": "condition_type_2_diabetes_has_symptom_symptom_polyuria",
+    "source_entity_id": "condition_type_2_diabetes",
+    "relation_type": "HAS_SYMPTOM",
+    "target_entity_id": "symptom_polyuria",
+    "confidence": 0.95,
+    "source_ids": [
+      "0004a0bb-87c0-46f8-b36a-95c98107395d"
+    ]
+  },
+  {
+    "relation_id": "drug_metformin_contraindicated_for_population_severe_renal_impairment",
+    "source_entity_id": "drug_metformin",
+    "relation_type": "CONTRAINDICATED_FOR",
+    "target_entity_id": "population_severe_renal_impairment",
+    "confidence": 0.95,
+    "source_ids": [
+      "0004a0bb-87c0-46f8-b36a-95c98107395d"
+    ]
+  }
+]

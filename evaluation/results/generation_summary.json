@@ -1,0 +1,294 @@
+{
+  "by_retrieval_mode": {
+    "vector": {
+      "mean_citation_precision": 0.48916666666666664,
+      "mean_citation_recall": 0.65,
+      "mean_citation_f1": 0.5333333333333333,
+      "median_latency_ms": 25.368700000058197,
+      "p95_latency_ms": 550.6502550000905,
+      "unsupported_claim_count": 0,
+      "unanswerable_refusal_rate": 0.0
+    },
+    "graph": {
+      "mean_citation_precision": 0.4708333333333333,
+      "mean_citation_recall": 0.85,
+      "mean_citation_f1": 0.575,
+      "median_latency_ms": 854.927449999991,
+      "p95_latency_ms": 2786.7645900000243,
+      "unsupported_claim_count": 0,
+      "unanswerable_refusal_rate": 0.4
+    },
+    "hybrid": {
+      "mean_citation_precision": 0.24214285714285713,
+      "mean_citation_recall": 0.75,
+      "mean_citation_f1": 0.3591666666666667,
+      "median_latency_ms": 801.7161499999474,
+      "p95_latency_ms": 1989.406134999831,
+      "unsupported_claim_count": 0,
+      "unanswerable_refusal_rate": 0.0
+    }
+  },
+  "by_category": {
+    "citation": {
+      "vector": {
+        "mean_citation_precision": 0.75,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.8333333333333333,
+        "median_latency_ms": 63.66040000000339,
+        "p95_latency_ms": 76.46263000000317,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "graph": {
+        "mean_citation_precision": 0.3333333333333333,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.5,
+        "median_latency_ms": 841.7249499999571,
+        "p95_latency_ms": 1047.6535449999005,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "hybrid": {
+        "mean_citation_precision": 0.29166666666666663,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.45,
+        "median_latency_ms": 1385.997399999951,
+        "p95_latency_ms": 1923.7845699998388,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      }
+    },
+    "contraindication": {
+      "vector": {
+        "mean_citation_precision": 0.5,
+        "mean_citation_recall": 0.5,
+        "mean_citation_f1": 0.5,
+        "median_latency_ms": 76.86535000004824,
+        "p95_latency_ms": 125.23364500008256,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "graph": {
+        "mean_citation_precision": 0.375,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.5333333333333333,
+        "median_latency_ms": 588.1919999999354,
+        "p95_latency_ms": 833.9426699999422,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "hybrid": {
+        "mean_citation_precision": 0.19642857142857142,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.325,
+        "median_latency_ms": 765.7989500000895,
+        "p95_latency_ms": 963.1025750001072,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      }
+    },
+    "direct": {
+      "vector": {
+        "mean_citation_precision": 1.0,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 1.0,
+        "median_latency_ms": 4276.653800000076,
+        "p95_latency_ms": 8105.974880000053,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "graph": {
+        "mean_citation_precision": 0.3333333333333333,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.5,
+        "median_latency_ms": 1116.4850999999771,
+        "p95_latency_ms": 1631.2693499999682,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "hybrid": {
+        "mean_citation_precision": 0.3333333333333333,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.5,
+        "median_latency_ms": 746.5099500000179,
+        "p95_latency_ms": 767.7908550000211,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      }
+    },
+    "interaction": {
+      "vector": {
+        "mean_citation_precision": 1.0,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 1.0,
+        "median_latency_ms": 26.5505499999108,
+        "p95_latency_ms": 29.761344999974426,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "graph": {
+        "mean_citation_precision": 0.3333333333333333,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.5,
+        "median_latency_ms": 827.5885499999731,
+        "p95_latency_ms": 846.5047950000326,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "hybrid": {
+        "mean_citation_precision": 0.3333333333333333,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.5,
+        "median_latency_ms": 1140.3782000001002,
+        "p95_latency_ms": 1490.0528600001394,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      }
+    },
+    "multi_hop": {
+      "vector": {
+        "mean_citation_precision": 0.6666666666666666,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.8,
+        "median_latency_ms": 28.092800000081297,
+        "p95_latency_ms": 28.51652000009608,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "graph": {
+        "mean_citation_precision": 0.6666666666666666,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.8,
+        "median_latency_ms": 6226.243700000055,
+        "p95_latency_ms": 10413.89645000014,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "hybrid": {
+        "mean_citation_precision": 0.5,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.6666666666666666,
+        "median_latency_ms": 1676.1415000000852,
+        "p95_latency_ms": 1710.3435700001,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      }
+    },
+    "relationship": {
+      "vector": {
+        "mean_citation_precision": 0.625,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.7,
+        "median_latency_ms": 21.50569999992058,
+        "p95_latency_ms": 22.205540000015844,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "graph": {
+        "mean_citation_precision": 0.6666666666666666,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.75,
+        "median_latency_ms": 989.8069999999279,
+        "p95_latency_ms": 1485.1724899998544,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "hybrid": {
+        "mean_citation_precision": 0.29166666666666663,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.45,
+        "median_latency_ms": 1231.8971499998952,
+        "p95_latency_ms": 2013.9883749999171,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      }
+    },
+    "semantic": {
+      "vector": {
+        "mean_citation_precision": 0.2,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.33333333333333337,
+        "median_latency_ms": 18.609400000059395,
+        "p95_latency_ms": 18.609400000059395,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "graph": {
+        "mean_citation_precision": 0.5,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.6666666666666666,
+        "median_latency_ms": 2360.8474000000115,
+        "p95_latency_ms": 2360.8474000000115,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "hybrid": {
+        "mean_citation_precision": 0.2,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.33333333333333337,
+        "median_latency_ms": 814.9761999998191,
+        "p95_latency_ms": 814.9761999998191,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      }
+    },
+    "two_hop": {
+      "vector": {
+        "mean_citation_precision": 0.25,
+        "mean_citation_recall": 0.5,
+        "mean_citation_f1": 0.3333333333333333,
+        "median_latency_ms": 23.66125000003194,
+        "p95_latency_ms": 24.438085000019782,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "graph": {
+        "mean_citation_precision": 0.75,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.8333333333333333,
+        "median_latency_ms": 1409.5570000000635,
+        "p95_latency_ms": 1860.5758900001206,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      },
+      "hybrid": {
+        "mean_citation_precision": 0.375,
+        "mean_citation_recall": 1.0,
+        "mean_citation_f1": 0.5333333333333333,
+        "median_latency_ms": 690.624350000121,
+        "p95_latency_ms": 828.2696750001492,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 1.0
+      }
+    },
+    "unanswerable": {
+      "vector": {
+        "mean_citation_precision": 0.0,
+        "mean_citation_recall": 0.0,
+        "mean_citation_f1": 0.0,
+        "median_latency_ms": 26.213000000097963,
+        "p95_latency_ms": 35.8676800000012,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 0.0
+      },
+      "graph": {
+        "mean_citation_precision": 0.4,
+        "mean_citation_recall": 0.4,
+        "mean_citation_f1": 0.4,
+        "median_latency_ms": 424.6165999998084,
+        "p95_latency_ms": 974.1138800000954,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 0.4
+      },
+      "hybrid": {
+        "mean_citation_precision": 0.0,
+        "mean_citation_recall": 0.0,
+        "mean_citation_f1": 0.0,
+        "median_latency_ms": 390.1680999999826,
+        "p95_latency_ms": 1065.124619999915,
+        "unsupported_claim_count": 0,
+        "unanswerable_refusal_rate": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+node_modules/
+.git/
+.pytest_cache/
+tests/
+frontend/
+docs/
+.vscode/
+.idea/
+*.log

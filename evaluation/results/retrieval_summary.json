@@ -1,0 +1,175 @@
+{
+  "overall": {
+    "mean_precision_at_5": 0.18333333333333332,
+    "mean_recall_at_5": 0.5166666666666667,
+    "mean_mrr": 0.48333333333333334,
+    "mean_latency_ms": 339.6061149983628,
+    "median_latency_ms": 90.3550999937579,
+    "p95_latency_ms": 707.0279249965084,
+    "unanswerable_stats": {
+      "total_unanswerable": 15,
+      "returned_evidence": 10,
+      "returned_insufficient_evidence": 5
+    }
+  },
+  "by_retrieval_mode": {
+    "vector": {
+      "mean_precision_at_5": 0.15,
+      "mean_recall_at_5": 0.65,
+      "mean_mrr": 0.65,
+      "mean_latency_ms": 595.9598349916632,
+      "median_latency_ms": 38.342249987181276,
+      "p95_latency_ms": 604.3079299808676,
+      "unanswerable_stats": {
+        "total_unanswerable": 5,
+        "returned_evidence": 5,
+        "returned_insufficient_evidence": 0
+      }
+    },
+    "graph": {
+      "mean_precision_at_5": 0.25,
+      "mean_recall_at_5": 0.25,
+      "mean_mrr": 0.25,
+      "mean_latency_ms": 176.82561000110582,
+      "median_latency_ms": 87.68310000596102,
+      "p95_latency_ms": 707.02792499651,
+      "unanswerable_stats": {
+        "total_unanswerable": 5,
+        "returned_evidence": 0,
+        "returned_insufficient_evidence": 5
+      }
+    },
+    "hybrid": {
+      "mean_precision_at_5": 0.15,
+      "mean_recall_at_5": 0.65,
+      "mean_mrr": 0.55,
+      "mean_latency_ms": 246.03290000231937,
+      "median_latency_ms": 128.11099999817088,
+      "p95_latency_ms": 452.68749497918304,
+      "unanswerable_stats": {
+        "total_unanswerable": 5,
+        "returned_evidence": 5,
+        "returned_insufficient_evidence": 0
+      }
+    }
+  },
+  "by_category": {
+    "citation": {
+      "mean_precision_at_5": 0.13333333333333333,
+      "mean_recall_at_5": 0.6666666666666666,
+      "mean_mrr": 0.5833333333333334,
+      "mean_latency_ms": 220.2121166580279,
+      "median_latency_ms": 96.4551999932155,
+      "p95_latency_ms": 604.5159999921452,
+      "unanswerable_stats": {
+        "total_unanswerable": 0,
+        "returned_evidence": 0,
+        "returned_insufficient_evidence": 0
+      }
+    },
+    "two_hop": {
+      "mean_precision_at_5": 0.06666666666666667,
+      "mean_recall_at_5": 0.3333333333333333,
+      "mean_mrr": 0.25,
+      "mean_latency_ms": 95.69435000109176,
+      "median_latency_ms": 111.34894999850076,
+      "p95_latency_ms": 144.9123999918811,
+      "unanswerable_stats": {
+        "total_unanswerable": 0,
+        "returned_evidence": 0,
+        "returned_insufficient_evidence": 0
+      }
+    },
+    "relationship": {
+      "mean_precision_at_5": 0.13333333333333333,
+      "mean_recall_at_5": 0.6666666666666666,
+      "mean_mrr": 0.5833333333333334,
+      "mean_latency_ms": 90.04191667190753,
+      "median_latency_ms": 95.02755000721663,
+      "p95_latency_ms": 164.5190749914036,
+      "unanswerable_stats": {
+        "total_unanswerable": 0,
+        "returned_evidence": 0,
+        "returned_insufficient_evidence": 0
+      }
+    },
+    "unanswerable": {
+      "mean_precision_at_5": 0.3333333333333333,
+      "mean_recall_at_5": 0.3333333333333333,
+      "mean_mrr": 0.3333333333333333,
+      "mean_latency_ms": 84.2806866664129,
+      "median_latency_ms": 78.3919999958016,
+      "p95_latency_ms": 150.3819999983534,
+      "unanswerable_stats": {
+        "total_unanswerable": 15,
+        "returned_evidence": 10,
+        "returned_insufficient_evidence": 5
+      }
+    },
+    "contraindication": {
+      "mean_precision_at_5": 0.06666666666666667,
+      "mean_recall_at_5": 0.3333333333333333,
+      "mean_mrr": 0.3333333333333333,
+      "mean_latency_ms": 92.09791666459448,
+      "median_latency_ms": 96.48210000887047,
+      "p95_latency_ms": 147.94789999723434,
+      "unanswerable_stats": {
+        "total_unanswerable": 0,
+        "returned_evidence": 0,
+        "returned_insufficient_evidence": 0
+      }
+    },
+    "semantic": {
+      "mean_precision_at_5": 0.13333333333333333,
+      "mean_recall_at_5": 0.6666666666666666,
+      "mean_mrr": 0.5,
+      "mean_latency_ms": 77.89480000307474,
+      "median_latency_ms": 87.53930000239052,
+      "p95_latency_ms": 108.31904002116062,
+      "unanswerable_stats": {
+        "total_unanswerable": 0,
+        "returned_evidence": 0,
+        "returned_insufficient_evidence": 0
+      }
+    },
+    "direct": {
+      "mean_precision_at_5": 0.13333333333333333,
+      "mean_recall_at_5": 0.6666666666666666,
+      "mean_mrr": 0.6666666666666666,
+      "mean_latency_ms": 2114.7598166571697,
+      "median_latency_ms": 119.62909999419935,
+      "p95_latency_ms": 8691.147924982943,
+      "unanswerable_stats": {
+        "total_unanswerable": 0,
+        "returned_evidence": 0,
+        "returned_insufficient_evidence": 0
+      }
+    },
+    "interaction": {
+      "mean_precision_at_5": 0.13333333333333333,
+      "mean_recall_at_5": 0.6666666666666666,
+      "mean_mrr": 0.6666666666666666,
+      "mean_latency_ms": 449.5870333291047,
+      "median_latency_ms": 134.1060499980813,
+      "p95_latency_ms": 1643.379974993877,
+      "unanswerable_stats": {
+        "total_unanswerable": 0,
+        "returned_evidence": 0,
+        "returned_insufficient_evidence": 0
+      }
+    },
+    "multi_hop": {
+      "mean_precision_at_5": 0.26666666666666666,
+      "mean_recall_at_5": 0.6666666666666666,
+      "mean_mrr": 0.6666666666666666,
+      "mean_latency_ms": 84.01888333416234,
+      "median_latency_ms": 75.62120001239236,
+      "p95_latency_ms": 147.2027499912656,
+      "unanswerable_stats": {
+        "total_unanswerable": 0,
+        "returned_evidence": 0,
+        "returned_insufficient_evidence": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,585 @@
+[
+  {
+    "entity_id": "condition_selflimiting_illness",
+    "normalized_name": "Self-Limiting Illness",
+    "entity_type": "Condition",
+    "confidence": 0.85,
+    "document_id": "ca7bbcc8-2354-375c-e053-2995a90a72a0",
+    "source_span": [
+      149,
+      173
+    ]
+  },
+  {
+    "entity_id": "population_pregnancy",
+    "normalized_name": "Pregnancy",
+    "entity_type": "Population",
+    "confidence": 0.95,
+    "document_id": "ca7bbcc8-2354-375c-e053-2995a90a72a0",
+    "source_span": [
+      312,
+      320
+    ]
+  },
+  {
+    "entity_id": "population_breastfeeding",
+    "normalized_name": "Breastfeeding",
+    "entity_type": "Population",
+    "confidence": 0.95,
+    "document_id": "ca7bbcc8-2354-375c-e053-2995a90a72a0",
+    "source_span": [
+      325,
+      339
+    ]
+  },
+  {
+    "entity_id": "population_child",
+    "normalized_name": "Child",
+    "entity_type": "Population",
+    "confidence": 0.98,
+    "document_id": "ca7bbcc8-2354-375c-e053-2995a90a72a0",
+    "source_span": [
+      439,
+      447
+    ]
+  },
+  {
+    "entity_id": "guideline_keep_out_of_reach_of_children",
+    "normalized_name": "Keep Out Of Reach Of Children",
+    "entity_type": "Guideline",
+    "confidence": 0.99,
+    "document_id": "ca7bbcc8-2354-375c-e053-2995a90a72a0",
+    "source_span": [
+      394,
+      447
+    ]
+  },
+  {
+    "entity_id": "guideline_do_not_use_if_safety_seal_is_damaged",
+    "normalized_name": "Do Not Use If Safety Seal Is Damaged",
+    "entity_type": "Guideline",
+    "confidence": 0.95,
+    "document_id": "ca7bbcc8-2354-375c-e053-2995a90a72a0",
+    "source_span": [
+      448,
+      490
+    ]
+  },
+  {
+    "entity_id": "drug_mineral_sunscreen",
+    "normalized_name": "Mineral Sunscreen",
+    "entity_type": "Drug",
+    "confidence": 0.85,
+    "document_id": "f229e866-5775-4e42-a316-8480dd92fec6",
+    "source_span": [
+      19,
+      47
+    ]
+  },
+  {
+    "entity_id": "guideline_external_use_only_warning",
+    "normalized_name": "External Use Only Warning",
+    "entity_type": "Guideline",
+    "confidence": 0.85,
+    "document_id": "f229e866-5775-4e42-a316-8480dd92fec6",
+    "source_span": [
+      174,
+      195
+    ]
+  },
+  {
+    "entity_id": "condition_infection",
+    "normalized_name": "Infection",
+    "entity_type": "Condition",
+    "confidence": 0.95,
+    "document_id": "b8f5797b-73e1-4201-b824-2cdd50c90497",
+    "source_span": [
+      45,
+      54
+    ]
+  },
+  {
+    "entity_id": "condition_minor_cut",
+    "normalized_name": "Minor Cut",
+    "entity_type": "Condition",
+    "confidence": 0.9,
+    "document_id": "b8f5797b-73e1-4201-b824-2cdd50c90497",
+    "source_span": [
+      58,
+      68
+    ]
+  },
+  {
+    "entity_id": "condition_scrapes",
+    "normalized_name": "Scrapes",
+    "entity_type": "Condition",
+    "confidence": 0.9,
+    "document_id": "b8f5797b-73e1-4201-b824-2cdd50c90497",
+    "source_span": [
+      69,
+      76
+    ]
+  },
+  {
+    "entity_id": "condition_burn",
+    "normalized_name": "Burn",
+    "entity_type": "Condition",
+    "confidence": 0.95,
+    "document_id": "b8f5797b-73e1-4201-b824-2cdd50c90497",
+    "source_span": [
+      77,
+      82
+    ]
+  },
+  {
+    "entity_id": "guideline_external_use_only",
+    "normalized_name": "External Use Only",
+    "entity_type": "Guideline",
+    "confidence": 0.85,
+    "document_id": "b8f5797b-73e1-4201-b824-2cdd50c90497",
+    "source_span": [
+      120,
+      141
+    ]
+  },
+  {
+    "entity_id": "drug_mezereum",
+    "normalized_name": "Mezereum",
+    "entity_type": "Drug",
+    "confidence": 0.9,
+    "document_id": "01f4b0f6-94df-fd91-e063-6394a90a7997",
+    "source_span": [
+      39,
+      47
+    ]
+  },
+  {
+    "entity_id": "symptom_itching",
+    "normalized_name": "Itching",
+    "entity_type": "Symptom",
+    "confidence": 0.98,
+    "document_id": "01f4b0f6-94df-fd91-e063-6394a90a7997",
+    "source_span": [
+      48,
+      55
+    ]
+  },
+  {
+    "entity_id": "population_pregnant_women",
+    "normalized_name": "Pregnant Women",
+    "entity_type": "Population",
+    "confidence": 0.9,
+    "document_id": "01f4b0f6-94df-fd91-e063-6394a90a7997",
+    "source_span": [
+      141,
+      149
+    ]
+  },
+  {
+    "entity_id": "population_breastfeeding_women",
+    "normalized_name": "Breastfeeding Women",
+    "entity_type": "Population",
+    "confidence": 0.9,
+    "document_id": "01f4b0f6-94df-fd91-e063-6394a90a7997",
+    "source_span": [
+      150,
+      157
+    ]
+  },
+  {
+    "entity_id": "drug_ofloxacin_ophthalmic_solution",
+    "normalized_name": "Ofloxacin Ophthalmic Solution",
+    "entity_type": "Drug",
+    "confidence": 0.99,
+    "document_id": "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff",
+    "source_span": [
+      36,
+      65
+    ]
+  },
+  {
+    "entity_id": "condition_hypersensitivity",
+    "normalized_name": "Hypersensitivity",
+    "entity_type": "Condition",
+    "confidence": 0.95,
+    "document_id": "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff",
+    "source_span": [
+      317,
+      333
+    ]
+  },
+  {
+    "entity_id": "drug_ofloxacin",
+    "normalized_name": "Ofloxacin",
+    "entity_type": "Drug",
+    "confidence": 0.98,
+    "document_id": "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff",
+    "source_span": [
+      337,
+      346
+    ]
+  },
+  {
+    "entity_id": "drug_quinolone",
+    "normalized_name": "Quinolone",
+    "entity_type": "Drug",
+    "confidence": 0.95,
+    "document_id": "f8ce57b8-ebf7-4dc1-96ec-c8fbc41c17ff",
+    "source_span": [
+      357,
+      367
+    ]
+  },
+  {
+    "entity_id": "drug_naproxen",
+    "normalized_name": "Naproxen",
+    "entity_type": "Drug",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      38,
+      54
+    ]
+  },
+  {
+    "entity_id": "drug_naproxen_sodium",
+    "normalized_name": "Naproxen Sodium",
+    "entity_type": "Drug",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      59,
+      82
+    ]
+  },
+  {
+    "entity_id": "condition_rheumatoid_arthritis",
+    "normalized_name": "Rheumatoid Arthritis",
+    "entity_type": "Condition",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      145,
+      165
+    ]
+  },
+  {
+    "entity_id": "condition_osteoarthritis",
+    "normalized_name": "Osteoarthritis",
+    "entity_type": "Condition",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      168,
+      182
+    ]
+  },
+  {
+    "entity_id": "condition_ankylosing_spondylitis",
+    "normalized_name": "Ankylosing Spondylitis",
+    "entity_type": "Condition",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      185,
+      207
+    ]
+  },
+  {
+    "entity_id": "condition_juvenile_rheumatoid_arthritis",
+    "normalized_name": "Juvenile Rheumatoid Arthritis",
+    "entity_type": "Condition",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      210,
+      253
+    ]
+  },
+  {
+    "entity_id": "condition_tendinitis",
+    "normalized_name": "Tendinitis",
+    "entity_type": "Condition",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      362,
+      372
+    ]
+  },
+  {
+    "entity_id": "condition_bursitis",
+    "normalized_name": "Bursitis",
+    "entity_type": "Condition",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      375,
+      383
+    ]
+  },
+  {
+    "entity_id": "condition_gout",
+    "normalized_name": "Gout",
+    "entity_type": "Condition",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      386,
+      396
+    ]
+  },
+  {
+    "entity_id": "symptom_pain",
+    "normalized_name": "Pain",
+    "entity_type": "Symptom",
+    "confidence": 0.95,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      418,
+      422
+    ]
+  },
+  {
+    "entity_id": "condition_dysmenorrhea",
+    "normalized_name": "Dysmenorrhea",
+    "entity_type": "Condition",
+    "confidence": 0.99,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      425,
+      445
+    ]
+  },
+  {
+    "entity_id": "drug_surgical_hand_scrub",
+    "normalized_name": "Surgical Hand Scrub",
+    "entity_type": "Drug",
+    "confidence": 0.85,
+    "document_id": "48ec3789-57c6-4834-8a4b-09ae4cb2eb38",
+    "source_span": [
+      18,
+      37
+    ]
+  },
+  {
+    "entity_id": "drug_metformin",
+    "normalized_name": "Metformin",
+    "entity_type": "Drug",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      512,
+      543
+    ]
+  },
+  {
+    "entity_id": "sideeffect_diarrhea",
+    "normalized_name": "Diarrhea",
+    "entity_type": "SideEffect",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      548,
+      556
+    ]
+  },
+  {
+    "entity_id": "sideeffect_nausea",
+    "normalized_name": "Nausea",
+    "entity_type": "SideEffect",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      558,
+      564
+    ]
+  },
+  {
+    "entity_id": "sideeffect_vomiting",
+    "normalized_name": "Vomiting",
+    "entity_type": "SideEffect",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      566,
+      574
+    ]
+  },
+  {
+    "entity_id": "sideeffect_flatulence",
+    "normalized_name": "Flatulence",
+    "entity_type": "SideEffect",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      576,
+      586
+    ]
+  },
+  {
+    "entity_id": "sideeffect_indigestion",
+    "normalized_name": "Indigestion",
+    "entity_type": "SideEffect",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      598,
+      609
+    ]
+  },
+  {
+    "entity_id": "sideeffect_abdominal_discomfort",
+    "normalized_name": "Abdominal Discomfort",
+    "entity_type": "SideEffect",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      611,
+      631
+    ]
+  },
+  {
+    "entity_id": "sideeffect_headache",
+    "normalized_name": "Headache",
+    "entity_type": "SideEffect",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      637,
+      645
+    ]
+  },
+  {
+    "entity_id": "sideeffect_asthenia",
+    "normalized_name": "Asthenia",
+    "entity_type": "SideEffect",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      588,
+      596
+    ]
+  },
+  {
+    "entity_id": "condition_lactic_acidosis",
+    "normalized_name": "Lactic Acidosis",
+    "entity_type": "Condition",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      675,
+      690
+    ]
+  },
+  {
+    "entity_id": "condition_acidosis",
+    "normalized_name": "Acidosis",
+    "entity_type": "Condition",
+    "confidence": 0.95,
+    "document_id": "label_metformin_001",
+    "source_span": [
+      682,
+      690
+    ]
+  },
+  {
+    "entity_id": "condition_hypertension",
+    "normalized_name": "Hypertension",
+    "entity_type": "Condition",
+    "confidence": 0.95,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      2142,
+      2154
+    ]
+  },
+  {
+    "entity_id": "population_adults",
+    "normalized_name": "Adults",
+    "entity_type": "Population",
+    "confidence": 0.95,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      4186,
+      4192
+    ]
+  },
+  {
+    "entity_id": "symptom_polyuria",
+    "normalized_name": "Polyuria",
+    "entity_type": "Symptom",
+    "confidence": 0.95,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      8749,
+      8757
+    ]
+  },
+  {
+    "entity_id": "population_renal_impairment",
+    "normalized_name": "Renal Impairment",
+    "entity_type": "Population",
+    "confidence": 0.95,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      11960,
+      11976
+    ]
+  },
+  {
+    "entity_id": "population_severe_renal_impairment",
+    "normalized_name": "Severe Renal Impairment",
+    "entity_type": "Population",
+    "confidence": 0.95,
+    "document_id": "8c45ef1f-f708-485b-bc20-60aa87ce6289",
+    "source_span": [
+      20052,
+      20075
+    ]
+  },
+  {
+    "entity_id": "condition_type_2_diabetes",
+    "normalized_name": "Type 2 Diabetes",
+    "entity_type": "Condition",
+    "confidence": 0.95,
+    "document_id": "29c0c23b-f87d-4a94-a411-4091f399ecd1",
+    "source_span": [
+      24700,
+      24717
+    ]
+  },
+  {
+    "entity_id": "condition_diabetic_ketoacidosis",
+    "normalized_name": "Diabetic Ketoacidosis",
+    "entity_type": "Condition",
+    "confidence": 0.95,
+    "document_id": "29c0c23b-f87d-4a94-a411-4091f399ecd1",
+    "source_span": [
+      24962,
+      24983
+    ]
+  },
+  {
+    "entity_id": "condition_diabetes",
+    "normalized_name": "Diabetes",
+    "entity_type": "Condition",
+    "confidence": 0.95,
+    "document_id": "29c0c23b-f87d-4a94-a411-4091f399ecd1",
+    "source_span": [
+      37912,
+      37920
+    ]
+  },
+  {
+    "entity_id": "drug_insulin",
+    "normalized_name": "Insulin",
+    "entity_type": "Drug",
+    "confidence": 0.95,
+    "document_id": "26cca05b-82f8-e191-e063-6394a90a56bd",
+    "source_span": [
+      7867,
+      7874
+    ]
+  }
+]
