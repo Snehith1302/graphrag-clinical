@@ -8,7 +8,6 @@ import logging
 from typing import List, Dict, Any, Optional
 import numpy as np
 import faiss
-from sentence_transformers import SentenceTransformer
 from backend.app.config import settings
 from backend.app.models.schemas import Chunk, EvidenceItem
 
@@ -28,12 +27,16 @@ class VectorStore:
         if getattr(self, "_initialized", False):
             return
             
-        logger.info(f"Loading embedding model: {settings.EMBEDDING_MODEL_NAME}")
         try:
+            from fastembed import TextEmbedding
+            logger.info("Initializing FastEmbed (ONNX) TextEmbedding for vector retrieval.")
+            self.model = TextEmbedding(model_name="sentence-transformers/all-MiniLM-L6-v2")
+            self.is_onnx = True
+        except ImportError:
+            logger.info(f"FastEmbed not found. Falling back to PyTorch SentenceTransformer with model: {settings.EMBEDDING_MODEL_NAME}")
+            from sentence_transformers import SentenceTransformer
             self.model = SentenceTransformer(settings.EMBEDDING_MODEL_NAME)
-        except Exception as e:
-            logger.error(f"Failed to load sentence-transformers model: {str(e)}")
-            raise e
+            self.is_onnx = False
             
         self.index_dir = settings.VECTOR_STORE_PATH
         self.index_file = os.path.join(self.index_dir, "index.faiss")
@@ -91,7 +94,10 @@ class VectorStore:
         logger.info(f"Generating embeddings for {len(chunks)} text chunks...")
         
         # Generate embeddings
-        embeddings = self.model.encode(texts, show_progress_bar=False)
+        if getattr(self, "is_onnx", False):
+            embeddings = list(self.model.embed(texts))
+        else:
+            embeddings = self.model.encode(texts, show_progress_bar=False)
         embeddings_arr = np.array(embeddings).astype('float32')
         
         # L2 normalization for inner-product to perform Cosine Similarity
@@ -125,7 +131,10 @@ class VectorStore:
             return []
             
         # Embed and normalize query vector
-        query_vector = self.model.encode([query], show_progress_bar=False)
+        if getattr(self, "is_onnx", False):
+            query_vector = list(self.model.embed([query]))
+        else:
+            query_vector = self.model.encode([query], show_progress_bar=False)
         query_arr = np.array(query_vector).astype('float32')
         faiss.normalize_L2(query_arr)
         
