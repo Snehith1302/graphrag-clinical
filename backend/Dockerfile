@@ -13,7 +13,7 @@ COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code and required runtime dependencies
-COPY backend /app
+COPY backend /app/backend
 COPY data/vector_index /app/data/vector_index
 COPY ingestion /app/ingestion
 
@@ -23,4 +23,4 @@ EXPOSE 8000
 # Set environment path to root python packages
 ENV PYTHONPATH=/app
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]

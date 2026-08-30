@@ -32,7 +32,7 @@ services:
     environment:
       - NEO4J_URI=bolt://neo4j:7687
     volumes:
-      - ./backend:/app
+      - ./backend:/app/backend
       - ./data:/app/data
     depends_on:
       neo4j:
